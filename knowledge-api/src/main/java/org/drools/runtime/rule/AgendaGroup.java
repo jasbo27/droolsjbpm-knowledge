@@ -28,6 +28,12 @@ public interface AgendaGroup {
     public void clear();
 
     public void setFocus();
-    
+
+    public boolean isParallel();
+    public void setParallel(boolean parallel);
+
+    public int getMaxThreadCount();
+    public void setMaxThreadCount(int maxThreadCount);
+
     //public Collection<Activation> getActivations();
 }
